@@ -1,0 +1,188 @@
+{
+    "Help": {
+        "name":"Help",
+        "group":"User",
+        "desc":"Display a list of commands.",
+        "usage":"help [group OR command]"
+    },
+    "Purge": {
+        "name":"Purge",
+        "group":"Moderator",
+        "desc":"Delete a specified number of massages.",
+        "usage":"purge <amount>" 
+    },
+    "Angry": {
+        "name":"Angry",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"angry" 
+    },
+    "Confused": {
+        "name":"Confused",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"confused" 
+    },
+    "Cry": {
+        "name":"Cry ou !Cry2",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"cry ou !cry2" 
+    },
+    "Embarassed": {
+        "name":"Embarassed",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"embarassed" 
+    },
+    "Error": {
+        "name":"Error",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"error" 
+    },
+    "Happy": {
+        "name":"Happy",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"happy" 
+    },
+    "Heart": {
+        "name":"Heart",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"heart" 
+    },
+    "Hello": {
+        "name":"Hello",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"hello" 
+    },
+    "Hug": {
+        "name":"Hug",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"hug" 
+    },
+    "Idea": {
+        "name":"Idea",
+        "group":"Emote",
+        "desc":"send an emote.",
+        "usage":"Idea" 
+    },
+    "Judge": {
+        "name":"Judge",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"judge" 
+    },
+    "Kawaii": {
+        "name":"Kawaii",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"kawaii" 
+    },
+    "Kill": {
+        "name":"Kill",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"kill" 
+    },
+    "Knee": {
+        "name":"Knee",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"knee" 
+    },
+    "Letsgo": {
+        "name":"Letsgo",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"letsgo" 
+    },
+    "Mad": {
+        "name":"Mad",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"mad" 
+    },
+    "Nice": {
+        "name":"Nice",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"nice" 
+    },
+    "Nyan": {
+        "name":"Nyan",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"nyan" 
+    },
+    "Owned": {
+        "name":"Owned",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"owned" 
+    },
+    "Punish": {
+        "name":"Punish",
+        "group":"Emote2",
+        "desc":"send an emote.",
+        "usage":"punish" 
+    },
+    "Ready": {
+        "name":"Ready",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"ready" 
+    },
+    "Shocked": {
+        "name":"Shocked",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"shocked" 
+    },
+    "Sleepy": {
+        "name":"Sleepy",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"sleepy" 
+    },
+    "Think": {
+        "name":"Think",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"think" 
+    },
+    "Wave": {
+        "name":"Wave ou !Wawe2",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"Wave" 
+    },
+    "Woaw": {
+        "name":"Woaw",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"woaw" 
+    },
+    "Wut": {
+        "name":"Wut",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"wut" 
+    },
+    "Yay": {
+        "name":"Yay",
+        "group":"Emote3",
+        "desc":"send an emote.",
+        "usage":"yay" 
+    },
+    "Ban": {
+        "name":"Ban",
+        "group":"Moderator",
+        "desc":"Ban someone",
+        "usage":"ban @pseudo" 
+    }
+}
