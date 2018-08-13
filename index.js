@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const func = require('./functions.js');
-
 var commands = require('./help_commands/help_commands.json');
 
 var token = require('./token.json');
@@ -47,7 +45,7 @@ bot.on('message', message =>
     
 
 
-    //!confused
+    /*//!confused
     if(message.content === '!confused')
      {
          let rich = new Discord.RichEmbed();
@@ -202,7 +200,7 @@ bot.on('message', message =>
         rich.set
 
         message.channel.send({embed: rich});
-    }
+    }*/
 
     //!knee
     if(message.content === '!knee')
@@ -311,91 +309,7 @@ bot.on('message', message =>
  
          message.channel.send({embed: rich});
     }
-     
-    //!sleepy
-    if(message.content === '!sleepy')
-      {
-          let rich = new Discord.RichEmbed();
-          rich.setDescription(message.author + ' is tired, maybe it\'s time to go sleep ?');
-          rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/13098474/ANDROID/sticker.png');
-          rich.setColor('ORANGE');
-          rich.set
-  
-          message.channel.send({embed: rich});
-    }
-     
-    //!think
-    if(message.content === '!think')
-     {
-         let rich = new Discord.RichEmbed();
-         rich.setDescription(message.author + ' is thinking about something.. ');
-         rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/33231204/ANDROID/sticker.png');
-         rich.setColor('ORANGE');
-         rich.set
  
-         message.channel.send({embed: rich});
-    }
-     
-    //!wave
-    if(message.content === '!wave')
-      {
-          let rich = new Discord.RichEmbed();
-          rich.setDescription(message.author + ' is waving at someone ');
-          rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/13098460/ANDROID/sticker.png');
-          rich.setColor('ORANGE');
-          rich.set
-  
-          message.channel.send({embed: rich});
-    }
-     
-    //!wave2
-    if(message.content === '!wave2')
-     {
-         let rich = new Discord.RichEmbed();
-         rich.setDescription(message.author + ' is waving at someone ');
-         rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/33231218/ANDROID/sticker.png');
-         rich.setColor('ORANGE');
-         rich.set
- 
-         message.channel.send({embed: rich});
-    }
-     
-    //!woaw
-    if(message.content === '!woaw')
-      {
-          let rich = new Discord.RichEmbed();
-          rich.setDescription('OwO ');
-          rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/13098469/ANDROID/sticker.png');
-          rich.setColor('ORANGE');
-          rich.set
-  
-          message.channel.send({embed: rich});
-    }
-     
-    //!wut
-    if(message.content === '!wut')
-     {
-         let rich = new Discord.RichEmbed();
-         rich.setDescription('Nani ??');
-         rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/13098462/ANDROID/sticker.png');
-         rich.setColor('ORANGE');
-         rich.set
- 
-         message.channel.send({embed: rich});
-    }
-     
-    //!yay
-    if(message.content === '!yay')
-      {
-          let rich = new Discord.RichEmbed();
-          rich.setDescription('Yay !');
-          rich.setImage('https://stickershop.line-scdn.net/stickershop/v1/sticker/33231184/ANDROID/sticker.png');
-          rich.setColor('ORANGE');
-          rich.set
-  
-          message.channel.send({embed: rich});
-    }
-    
     
     //!help
     if(msg.startsWith(prefix + 'HELP'))
@@ -489,11 +403,8 @@ for(var tok in token)
             {
                 if(token[tok].group.toUpperCase() === 'SCHIIRO')
                 {
-                    
                     bot.login(token[tok].id);
-                }
-
-                
+                }                
             }
 
 
