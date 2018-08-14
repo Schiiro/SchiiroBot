@@ -4,10 +4,17 @@ exports.run = (bot, message, args) =>
     {
         message.delete();
 
-        if(!message.member.roles.find("name", "maitre des bots"))
+        if(!message.member.roles.find("name", "Ultimate"))
         {
-            message.channel.send('Tu n\'as pasles droits pour cette action.');
-            return;
+            if(!message.member.roles.find("name", "Admin Al"))
+            {
+                if(!message.member.roles.find("name", "Omega"))
+                {
+                    message.channel.send('Tu n\'as pasles droits pour cette action.');
+                    return;
+                }
+            }
+            
         }
 
         if(isNaN(args[0]))
